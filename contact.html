@@ -1,0 +1,151 @@
+<!DOCTYPE html> <!-- DOCTYPE = pour dire au navigateur le type de document à afficher (ici c'est du HTML) -->
+
+    <html lang="fr">
+        
+        <head>
+
+            <meta charset="utf-8" />  <!-- encodage -->
+            <meta name="Description" content="Formulaire de contact">
+
+            <title> Contact </title> <!-- affichage du titre à la place du nom du fichier "cv.html" -->
+
+            <link rel="stylesheet" type="text/css" href="css/main.css" />
+            <link rel="stylesheet" type="text/css" href="css/menu.css" />
+
+        </head>
+
+        <body> <!-- intérieur du site -->
+
+            <!-- HEADER -->
+            <div class="header">
+
+                <div class="PhotoPerso" >
+                    <img src="Images/Photo3.jpg" alt="Ma photo"/>
+                </div>
+
+                <div class="PosteRecherche size40 colorBlueDark">
+                    Administrateur de bases de données MySQL, SQL Server <br/>
+                    Développeur Web Front End, Back End, Fullstack<br/>
+                    Développeur VB dotnet confirmé<br/>
+                    Développeur VBA Excel confirmé
+                </div>
+
+                <div class="InfoPerso size40 colorBlueDark">
+                    Haingo FAUVIN <br/>
+                    69 avenue Vladimir Illitch Lénine <br/>
+                    Apprt 135 <br/>
+                    94110 ARCUEIL
+                </div>
+
+            </div>
+           
+             <!-- NAVIGATION = MENU -->
+            <NAV>
+                <ul>
+
+                    <li class="menuInfo">
+                        <a href="CV.html"> Mes informations</a>
+                    </li>
+
+                    <li class="menuExperience">
+                        <a href="experiencePro.html"> Expériences professionnelles</a>
+                    </li>
+
+                    <li class="menuContact">
+                        <a href="Contact.html"> Formulaire de contact</a>
+                    </li>
+
+                  </ul>
+                  
+            </NAV>
+
+            <!-- CORPS DU SITE -->
+            <div class="Corps size20">
+
+                <!-- NOUVELLE SECTION -->
+                <h2 class="size40 borderButtonDark"> SR </h2>
+
+                <div> 
+                    Téléphone : 0000000 <br/>
+                    Mail : xxxxxx@gmail.com
+                </div>
+
+                <!-- NOUVELLE SECTION -->
+                <h2 class="size40 borderButtonDark"> Me contacter </h2>
+
+                <div> 
+
+                    <form>
+
+                        <fieldset>
+
+                            <legend>
+                                Renseigner les informations
+                            </legend>
+
+                            <div>
+
+                                <label for="Nom">
+                                    Nom :
+                                </label>
+
+                                <input type="text" name="Nom" id="Nom" placeholder="Nom / Prénom"/>  
+
+                            </div>
+
+                            <div>
+
+                                <label for="Mail">
+                                    EMail :
+                                </label>
+
+                                <input type="email" name="Mail" id="Mail" placeholder="Nom@exemple.com"/>  
+                                                        
+                            </div>
+                            
+                            <div>
+
+                                <label for="Objet">
+                                    Objet :
+                                </label>
+
+                                <select name="Objet" id="Objet">
+                                    <option> Question </option>
+                                    <option> Autre </option>
+                                </select>
+
+                            </div>
+
+                            <div>
+
+                                <label for="Message">
+                                    Message :
+                                </label>
+
+                                <textarea name="Message" id="Message" cols="30" rows="5"> </textarea>
+
+                                <input type="submit" value="Valider" class="buttonContact bg-colorBlueLight colorWhite"/>
+                                                        
+                            </div>
+
+                        </fieldset>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="clear">
+                    
+            </div>
+
+            <!-- FOOTER DU SITE -->
+             <div class="Footer text-center colorWhite bg-colorBlue3">
+                Tous droits réservés
+            </div>
+
+        </body>  
+
+    </html>
+ 
